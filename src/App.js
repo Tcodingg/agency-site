@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./Header";
 import About from "./About";
 import Services from "./Services";
-import Home from "./Home";
+import Home from "./Home/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
