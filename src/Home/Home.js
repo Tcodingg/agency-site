@@ -6,24 +6,26 @@ import home_banner from "../images/home-banner.png";
 function Home() {
   return (
     <div className="nave-pages">
-      <header>
+      <header className="head">
         <h1>Write for readers not for search engines.</h1>
       </header>
       <section>
         <div>
           <p>
-            is simply dummy text of the printing and typesetting industry. Lorem
+            Is simply dummy text of the printing and typesetting industry. Lorem
             Ipsum has been the industry's standard.
           </p>
           <button>CHECK OUR PROJECTS</button>
         </div>
 
-        <div className="img">
+        <div className="img-1">
           <img src={home_banner} alt="home bunner" />
         </div>
       </section>
 
       <div className="categories-home">
+        <Categories num="34" description="Happy Clients" />
+        <Categories num="34" description="Happy Clients" />
         <Categories num="34" description="Happy Clients" />
       </div>
       <div>
